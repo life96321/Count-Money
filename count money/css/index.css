@@ -1,0 +1,417 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body,
+#wrap {
+	width: 100%;
+	height: 100%;
+}
+
+#page_one,
+#page_two,
+#page_three,
+#page_four {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+}
+
+#page_two {
+	display: none;
+}
+
+#page_three {
+	display: none;
+}
+
+#page_four {
+	display: none;
+}
+
+#bg_one,
+#bg_two,
+#bg_three {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: -1;
+}
+
+
+/*第一页*/
+
+.logo_one {
+	width: 40%;
+	position: absolute;
+	left: 20%;
+	top: 2.5%;
+}
+
+.logo_one>img {
+	width: 100%;
+}
+
+.fly_qian {
+	width: 21%;
+	position: absolute;
+	top: 16.5%;
+	left: 4%;
+	z-index: 10;
+}
+
+.fly_qian img {
+	width: 100%;
+}
+
+.title_one {
+	width: 100%;
+	position: absolute;
+	top: 12.5%;
+}
+
+.title_one>img {
+	display: block;
+	position: absolute;
+}
+
+.title_one .img_tz {
+	width: 69%;
+	margin-left: 20%;
+}
+
+.title_one .img_yq {
+	width: 100%;
+	margin-top: 22%;
+}
+
+.start_game {
+	width: 44%;
+	position: absolute;
+	top: 57%;
+	left: 28%;
+}
+
+.start_game>img {
+	width: 100%;
+}
+
+.button_one {
+	width: 90%;
+	position: absolute;
+	top: 84%;
+	left: 5%;
+}
+
+.bo_bg,
+.bo_img {
+	width: 100%;
+}
+
+.bo_bg>img {
+	width: 100%;
+}
+
+.button_one .bo_img {
+	position: absolute;
+	top: 12%;
+}
+
+.bo_img>img {
+	width: 21.5%;
+	margin-left: 2%;
+}
+
+.shou_one {
+	width: 13%;
+	position: absolute;
+	top: 69%;
+	left: 60%;
+}
+
+.shou_one>img {
+	width: 100%;
+}
+
+
+/*第二页*/
+
+.kuang_two,
+.title_two {
+	width: 82%;
+	position: absolute;
+	top: 12.5%;
+	left: 9%;
+}
+
+.kuang_two>img {
+	width: 100%;
+}
+
+.txt_two {
+	width: 86%;
+	margin-top: 5%;
+	margin-left: 7%;
+}
+
+.score_two {
+	width: 45%;
+	position: absolute;
+	top: 32.5%;
+	left: 20%;
+}
+
+.score_two>img {
+	width: 27%;
+	margin-right: 4%;
+}
+
+.score {
+	width: 45%;
+	position: absolute;
+	top: 35%;
+	left: 24.5%;
+}
+
+span {
+	font-size: 30px;
+	margin-right: 20.5%;
+	color: white;
+	font-weight: bold;
+}
+
+.time_two {
+	width: 17%;
+	position: absolute;
+	top: 33%;
+	left: 66%;
+}
+
+.time_two>img {
+	width: 100%;
+}
+
+.djs {
+	width: 17%;
+	position: absolute;
+	top: 30%;
+	left: 30%;
+	font-size: 25px;
+	color: rgb(170, 129, 83);
+}
+
+.money_active {
+	width: 58%;
+	height: 40.5%;
+	position: absolute;
+	bottom: 0px;
+	left: 21%;
+	overflow: hidden;
+}
+
+.money {
+	width: 100%;
+	position: absolute;
+	top: 0px;
+}
+
+.zhuan_two {
+	width: 100%;
+	position: absolute;
+	/*top: 86%;*/
+	bottom: 0%;
+	z-index: 10;
+}
+
+.zhuan_two>img {
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
+}
+
+
+/*第三页*/
+
+.title_three {
+	width: 70%;
+	position: absolute;
+	top: 14%;
+	left: 15%;
+}
+
+.title_three>img {
+	width: 100%;
+}
+
+.img_left {
+	width: 28%;
+	position: absolute;
+	top: 56%;
+	left: 16%;
+}
+
+.img_right {
+	width: 28%;
+	position: absolute;
+	top: 56%;
+	right: 16%;
+}
+
+.qian_three {
+	color: white;
+	font-size: 60px;
+	font-family: arial;
+	font-weight: bolder;
+	position: absolute;
+	left: 33%;
+	top: 20%;
+}
+
+.txt_three {
+	width: 54%;
+	position: absolute;
+	top: 30%;
+	left: 23%;
+}
+
+.zhanji {
+	width: 70%;
+	background-color: white;
+	border-radius: 6px;
+	position: absolute;
+	top: 36%;
+	left: 15%;
+}
+
+.opbg {
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	position: absolute;
+	z-index: 20;
+	opacity: 0.8;
+}
+
+
+/*第四页*/
+
+.share {
+	width: 50%;
+	position: absolute;
+	top: 5%;
+	right: 5%;
+	z-index: 30;
+}
+
+
+/*个人资料*/
+
+.grzl,
+.sqb,
+.hdgz,
+.hdjp {
+	display: none;
+}
+
+.close,
+.rank_bg,
+.sqbpm,
+.hdgz_txt,
+.hdjp_txt {
+	position: absolute;
+	z-index: 30;
+}
+
+.close {
+	width: 5%;
+	top: 15.33%;
+	right: 13%;
+}
+
+.rank_bg {
+	width: 74%;
+	top: 20%;
+	left: 13%;
+}
+
+.grzl_kuang {
+	position: absolute;
+	z-index: 30;
+	width: 74%;
+	top: 20%;
+	left: 13%;
+}
+
+.grzl_bg {
+	width: 100%;
+	height: 100%;
+}
+
+.tjstart {
+	width: 54%;
+	position: absolute;
+	z-index: 40;
+	left: 23%;
+	top: 77%;
+}
+
+.input {
+	width: 76%;
+	height: 27%;
+	position: absolute;
+	top: 34%;
+	left: 13%;
+	z-index: 40;
+}
+
+input {
+	width: 92%;
+	height: 35%;
+	border: 2px solid red;
+	border-radius: 10px;
+	display: block;
+	margin-bottom: 4%;
+	background-color: rgb(242, 187, 0);
+	padding-left: 5%;
+	font-size: 16px;
+}
+
+
+/*数钱榜*/
+
+.sqbpm {
+	width: 64%;
+	top: 28%;
+	left: 18%;
+}
+
+
+/*活动规则*/
+
+.hdgz_txt {
+	width: 63%;
+	top: 21%;
+	left: 18%;
+}
+
+
+/*活动奖品*/
+
+.hdjp_txt {
+	width: 64%;
+	top: 24%;
+	left: 18%;
+}
+
+
+
+.newmoney{
+	width: 210px;
+	position: absolute;
+	bottom: -145px;
+	left: 50%;
+	margin-left: -105px;
+	opacity: 1;
+}
